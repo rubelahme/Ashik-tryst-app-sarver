@@ -107,8 +107,8 @@ const CodeDetails = () => {
                     {...register("example", {
                       required: true,
                     })}
-                    minLength={12}
-                    maxLength={12}
+                    minLength={5}
+                    maxLength={18}
                   />
                   <div>
                     <input
